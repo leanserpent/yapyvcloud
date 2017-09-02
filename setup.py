@@ -9,8 +9,8 @@ config = {
 	'description': 'yet another pyvcloud',
 	'author': 'lean.serpent',
 	'author_email': 'lean.serpent@gmail.com',
-	'url': 'Project Site',
-	'download_url': 'Download Url',
+	'url': 'https://github.com/leanserpent/yapyvcloud',
+	'download_url': '',
     'keywords': ['python', 'vcloud']
 	'install_requires': ['nose'],
 	'scripts': [],
