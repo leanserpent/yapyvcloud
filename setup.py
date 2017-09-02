@@ -3,7 +3,7 @@ try:
 except ImportError:
     from distutils.core import setup
 setup(
-    name = 'yapyvcloud'
+    name = 'yapyvcloud',
     packages = ['yapyvcloud'],
     version = '0.1',
     description = 'yet another pyvcloud',
@@ -13,6 +13,6 @@ setup(
     download_url = 'https://github.com/leanserpent/yapyvcloud/archive/v0.1.tar.gz',
     keywords = ['python', 'vcloud']
     install_requires = ['nose'],
-    scripts = [],
+    scripts = []
 )
 
