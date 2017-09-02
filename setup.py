@@ -12,7 +12,7 @@ setup(
     url = 'https://github.com/leanserpent/yapyvcloud',
     download_url = 'https://github.com/leanserpent/yapyvcloud/archive/v0.1.tar.gz',
     keywords = ['python', 'vcloud'],
-    install_requires = ['nose'],
+    install_requires = ['datetime','random','bs4','lxml'],
     scripts = []
 )
 
