@@ -11,7 +11,7 @@ setup(
     author_email = 'lean.serpent@gmail.com',
     url = 'https://github.com/leanserpent/yapyvcloud',
     download_url = 'https://github.com/leanserpent/yapyvcloud/archive/v0.1.tar.gz',
-    keywords = ['python', 'vcloud']
+    keywords = ['python', 'vcloud'],
     install_requires = ['nose'],
     scripts = []
 )
