@@ -2,7 +2,7 @@ try:
     from setuptools import setup
 except ImportError:
     from distutils.core import setup
-config = {
+setup(
     name = 'yapyvcloud'
     packages = ['yapyvcloud'],
     version = '0.1',
@@ -14,7 +14,5 @@ config = {
     keywords = ['python', 'vcloud']
     install_requires = ['nose'],
     scripts = [],
-}
-
-setup(**config)
+)
 
