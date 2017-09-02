@@ -3,6 +3,7 @@ yapyvcloud = yet another pyvcloud, an alternative python wrapper to VMware's pyt
 tests/yapyvcloud_tests.py for usage example.
 
 The wrapper assumes yapyvcloud_cred.yaml under user home (~/):
+```
 credentials:
 - credential:
    alias: vcdorg
@@ -16,4 +17,4 @@ credentials:
     org: system
     user: sys_admin
     pass: sys_admin_password
-
+```
